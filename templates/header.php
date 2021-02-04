@@ -9,6 +9,16 @@
 		.brand-text{
 			color: #cbb09c !important
 		}
+
+		form{
+			max-width: 70%;
+			margin: 20px auto;
+			padding: 20px
+		}
+
+		form .btn{
+			margin: 30px;
+		}
     </style>
 </head>
 
