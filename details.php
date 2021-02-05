@@ -47,9 +47,9 @@ if (isset($_POST["delete"])) {
 
 
 <?php if ($pizza) : ?>
-    <div class="container white center">
+    <div class="container white center box hoverable">
         <h4><?php echo htmlspecialchars($pizza["title"]) ?></h4>
-        <p>"created by:<?php echo htmlspecialchars($pizza["email"]) ?></p>
+        <p>created by : <?php echo htmlspecialchars($pizza["email"]) ?></p>
         <p><?php echo date($pizza["created_at"]) ?></p>
         <h5>Ingredients</h5>
         <ul>
